@@ -1,0 +1,38 @@
+.big-heart{
+    font-size: 50px;
+    animation: to-small 1s ease infinite;
+}
+.small-heart,.big-heart{
+    color:red;
+    display: inline;
+} 
+.small-heart{
+    font-size: 40px;
+    animation: to-big 1s ease infinite;
+}
+.hearts{
+    margin-top: 300px;
+    margin-left: 300px;
+}
+@keyframes to-big{
+    0% {
+        font-size: 40px;
+    }
+    50%{
+        font-size: 50px;
+    }
+    100%{
+        font-size:40px;
+    }
+}
+@keyframes to-small{
+    0% {
+        font-size:50px;
+    }
+    50%{
+        font-size: 40px;
+    }
+    100%{
+        font-size: 50px;
+    }
+}
